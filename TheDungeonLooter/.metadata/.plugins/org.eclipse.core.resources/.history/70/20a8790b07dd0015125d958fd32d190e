@@ -1,0 +1,48 @@
+package contract;
+
+import java.util.Scanner;
+
+public class Contract {
+
+	private String contract ="";
+	private int contractNum = 0;
+	private String party_1 ="";
+	private String party_2 ="";
+	private String escrow_3 ="";
+	
+	
+	
+	
+	public String getContract() {
+		return contract;
+	}
+	public void setContract(String contract) {
+		this.contract = contract;
+	}
+	public int getContractNum() {
+		return contractNum;
+	}
+	public void setContractNum(int contractNum) {
+		this.contractNum = contractNum;
+	}
+	public String getParty_1() {
+		return party_1;
+	}
+	public void setParty_1(String party_1) {
+		this.party_1 = party_1;
+	}
+	public String getParty_2() {
+		return party_2;
+	}
+	public void setParty_2(String party_2) {
+		this.party_2 = party_2;
+	}
+	public String getEscrow_3() {
+		return escrow_3;
+	}
+	public void setEscrow_3(String escrow_3) {
+		this.escrow_3 = escrow_3;
+	}
+	
+	
+}
